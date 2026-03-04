@@ -1,3 +1,9 @@
+#ShadowDocs CLI
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-1.1.0-green.svg)
+![status](https://img.shields.io/badge/status-active-success.svg)
+
 # shadowdocs-cli
 Open-source documentetion site for shadowdocs CLI
 
