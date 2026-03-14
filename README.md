@@ -15,6 +15,13 @@ ShadowDocs-CLI is an open-source command line tool designed to help users manage
 
 ---
 
+## objectives
+The main objectives of this project are:
+-	To create a lightweight documentation management tool.
+-	To allow users to generate structured documentation quickly.
+-	To demonstrate the use of open source tools such as Git, Linux commands, and CLI based development.
+-	To practice system development concepts learned in the IT231 course.
+
 ## Features
 - create notes
 - edit notes
@@ -35,7 +42,7 @@ We welcome contributions!
 ## Lisence
 This project is lisenced under the MIT lisence
 ## Authors
-1.Joshua Malekela
-2.Juvenal Tilya
-3.Alex Audax
-4.Sinimesi Sadock
+1. Joshua Malekela
+2. Juvenal Tilya
+3. Alex Audax
+4. Sinimesi Sadock
