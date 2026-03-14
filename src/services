@@ -1,1 +1,24 @@
-type any thing here
+
+Services handle the **core business logic** of the application. Controllers use services to execute functionality.
+
+# Services
+
+Services contain reusable business logic used by controllers.
+
+## Available Services
+
+### 1. SyncService
+**Location:** `src/services/SyncService.js`  
+**Purpose:** Manages the data synchronization process.
+
+**Key Methods:**
+- `initializeSync(userId)` – Starts a new sync job for a user.
+- `executeSync(jobId)` – Executes a sync job.
+- `cancelSync(jobId)` – Cancels a sync job.
+
+**Example Usage:**
+```javascript
+const SyncService = require('../services/SyncService');
+
+const job = await SyncService.initializeSync(user.id);
+await SyncService.executeSync(job.id);
