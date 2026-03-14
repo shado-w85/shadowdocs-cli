@@ -3,7 +3,7 @@
 Welcome to the official documentation for **DevSync**, a fictional open-source developer collaboration tool designed to help teams synchronize projects, manage tasks, and track development updates efficiently.
 
 <p align="center">
-  <img src="logo.png" width="200">
+  <img src="logo.png" width="300"; height="200">
 </p>
 
 ---
