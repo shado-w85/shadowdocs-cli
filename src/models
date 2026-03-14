@@ -1,1 +1,32 @@
-write any thing here
+
+Models define the **data structure** and interact with the database.
+
+
+# Models
+
+Models represent the database schema and handle all database interactions.
+
+## Available Models
+
+### 1. User
+**Location:** `src/models/User.js`  
+**Purpose:** Represents user data.
+
+**Attributes:**
+- `id` (BigInt, primary key)
+- `username` (String, unique)
+- `email` (String)
+- `passwordHash` (String)
+- `createdAt` (Date)
+- `updatedAt` (Date)
+
+**Example Usage:**
+```javascript
+const User = require('./User');
+
+// Create a new user
+const newUser = await User.create({
+  username: 'devuser',
+  email: 'devuser@example.com',
+  passwordHash: 'hashedPassword123'
+});
