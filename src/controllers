@@ -1,1 +1,19 @@
-i can add any thing here
+# Controllers
+
+Controllers manage user input and coordinate responses with models and services. Each controller represents a specific resource.
+
+## Available Controllers
+
+### 1. SyncController
+**Location:** `src/controllers/SyncController.js`  
+**Purpose:** Manages data synchronization requests between clients and server.
+
+**Key Methods:**
+- `startSync(req, res)` – Initiates a data sync process.
+- `checkStatus(req, res)` – Checks the current status of a sync job.
+- `stopSync(req, res)` – Stops a running sync process.
+
+**Example Usage:**
+```javascript
+const syncController = require('./SyncController');
+syncController.startSync(req, res);
