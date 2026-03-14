@@ -1,7 +1,7 @@
 
 ---
 
-# 3️⃣ docs/usage.md
+# usage.md
 
 ```markdown
 # DevSync Usage Guide
