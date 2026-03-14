@@ -1,22 +1,22 @@
-# Installation Guide
+# DevSync Installation Guide
+
+This guide explains how to install and set up DevSync on your system.
+
+---
 
 ## Requirements
-- Node.js installed
-- Git installed
 
-## steps
-1. clone the repository
-bash
-- "git clone https://github.com/your name/shadowdocs-cli.git"
+Before installing DevSync, ensure your system has the following:
 
-2. Navigate into the project directory
-   bash
-- cd shadowdocs-cli
+- Git
+- Node.js
+- npm
 
-3. install dependencies
-   bash
-- npm install
+---
 
-4. Run the tool
-   bash
-- node index.js
+## Step 1: Clone the Repository
+
+Clone the DevSync repository using Git.
+
+```bash
+git clone https://github.com/shado-w85/devsync.git
