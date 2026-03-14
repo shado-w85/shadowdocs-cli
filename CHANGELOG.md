@@ -1,12 +1,26 @@
-#changelog
-All notable changes to this project will be documented in this file.
+# Changelog
 
-## v1.0.0
-- Initial release
-- Added README
-- Added Usage Guide
-- Added contributing guide
+All notable changes to the DevSync project will be documented in this file.
 
-## v1.1.0
-- Improved documentation clarity
-- added help command example
+The format follows standard open-source changelog practices.
+
+---
+
+## Version 1.0.0 – Initial Release
+
+### Added
+- Created DevSync repository
+- Added project documentation
+- Added installation guide
+- Added usage guide
+- Added API documentation
+- Added project logo
+
+---
+
+## Version 1.1.0 – Documentation Update
+
+### Improved
+- Improved README documentation
+- Updated installation instructions
+- Added examples in API documentation
