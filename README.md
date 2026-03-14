@@ -8,41 +8,45 @@
 ![Version](https://img.shields.io/badge/version-1.1.0-green.svg)
 ![status](https://img.shields.io/badge/status-active-success.svg)
 
-# shadowdocs-cli
-Open-source documentetion site for shadowdocs CLI
+# DevSync
 
-ShadowDocs-CLI is an open-source command line tool designed to help users manage notes efficiently and quickly
+DevSync is a fictional open-source developer collaboration tool designed to help development teams synchronize project files, tasks, and updates in real time.
+
+The goal of DevSync is to improve communication between developers and ensure project resources remain consistent across multiple development environments.
 
 ---
 
-## objectives
-The main objectives of this project are:
--	To create a lightweight documentation management tool.
--	To allow users to generate structured documentation quickly.
--	To demonstrate the use of open source tools such as Git, Linux commands, and CLI based development.
--	To practice system development concepts learned in the IT231 course.
-
 ## Features
-- create notes
-- edit notes
-- delete notes
-- search notes
-- list all notes
 
-  ---
-## usage
-see USAGE.mg for command examples and usage guide
+DevSync provides several features that support modern development workflows:
 
-## Contributing 
-We welcome contributions!
-- please read CONTRIBUTION.md before submiting pull requests
+- Real-time file synchronization
+- Task management for development teams
+- Version tracking for project changes
+- Notification system for project updates
+- Git integration for repository management
 
-  ---
+---
 
-## Lisence
-This project is lisenced under the MIT lisence
+## Project Structure
+
+The DevSync repository is organized as follows:
+
+devsync/
+│
+├── docs/
+│   ├── installation.md   # Installation guide
+│   ├── usage.md          # Instructions on how to use DevSync
+│   └── api.md            # API documentation
+│
+├── src/
+│   ├── controllers       # Handles application logic
+│   ├── models            # Database models
+│   └── services          # Business logic and services
+│
+├── README.md             # Main documentation file
+└── CHANGELOG.md          # Records project updates and versions
 ## Authors
-1. Joshua Malekela
-2. Juvenal Tilya
-3. Alex Audax
-4. Sinimesi Sadock
+
+- **Joshua Malekela** – Project Developer  
+- Open Source Documentation Project
