@@ -1,0 +1,11 @@
+title: DevSync Documentation
+description: Official documentation for DevSync developer collaboration tool
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+
+author: DevSync Team
+
+github:
+  repository_name: devsync
+  repository_url: https://github.com/yourusername/devsync
